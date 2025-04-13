@@ -35,7 +35,7 @@ const rules = [
 
 export default function HouseGuideRules() {
   return (
-    <div className="max-w-7xl mx-auto my-48 px-4 min-h-[50vh]">
+    <div className="max-w-7xl mx-auto my-24 md:my-48 px-4">
       <h2 className="text-3xl md:text-5xl font-crimson-text text-center">
         House Guide & Guest Notes
       </h2>

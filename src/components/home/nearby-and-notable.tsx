@@ -2,7 +2,7 @@ import { Building, Building2, Handshake, Trees, Wine } from "lucide-react";
 
 export default function NearbyAndNotable() {
   return (
-    <div className="max-w-7xl mx-auto px-4 my-48">
+    <div className="max-w-7xl mx-auto px-4 my-24 md:my-48">
       <h2 className="text-3xl md:text-5xl font-crimson-text text-center">
         Nearby & Notable
       </h2>

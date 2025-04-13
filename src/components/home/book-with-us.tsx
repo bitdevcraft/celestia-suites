@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function BookWithUs() {
   return (
-    <div className="max-w-7xl mx-auto px-4 my-32">
+    <div className="max-w-7xl mx-auto px-4 mt-24 md:mt-32">
       <h2 className="text-3xl md:text-5xl font-crimson-text text-center">
         Ready to Book Your Stay?
       </h2>

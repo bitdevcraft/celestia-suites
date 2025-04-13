@@ -60,7 +60,7 @@ const features = [
 
 export default function FeaturesAndAmenities() {
   return (
-    <div className="max-w-7xl mx-auto px-4 my-48 min-h-[50vh]">
+    <div className="max-w-7xl mx-auto px-4 my-16 md:my-48">
       <h2 className="text-3xl md:text-5xl font-crimson-text text-center">
         Features &amp; Amenities
       </h2>

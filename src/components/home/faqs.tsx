@@ -49,7 +49,7 @@ const questiosAndAnswer = [
 
 export default function FaQs() {
   return (
-    <div className="max-w-3xl mx-auto px-4 my-48 min-h-[50vh]">
+    <div className="max-w-3xl mx-auto px-4 my-24 md:my-48 min-h-[50vh]">
       <h2 className="text-3xl md:text-5xl font-crimson-text text-center">
         Frequently Asked Questions
       </h2>
