@@ -1,0 +1,32 @@
+import Image from "next/image";
+
+export default function YouAndPet() {
+  return (
+    <div className="min-h-[50vh] max-w-7xl mx-auto px-4 my-32">
+      <div className="flex flex-col flex-col-reverse md:flex-row justify-center items-start md:items-center gap-12 min-h-[60vh]">
+        <div className="basis-1/2 flex-1 bg-gray-100 h-128 w-full overflow-hidden relative">
+          <Image
+            src={"/pet.jpeg"}
+            alt="room"
+            width={500}
+            height={500}
+            className="w-full absolute top-1/2 -translate-y-[50%]"
+          />
+        </div>
+        <div className="basis-1/2 flex flex-col gap-4">
+          <h2 className="text-3xl md:text-5xl font-crimson-text ">
+            For You &amp; Your Pet
+          </h2>
+          <p className="font-light">
+            We&apos;ve created a space where pets are not just
+            allowed—they&apos;re truly welcome.
+          </p>
+          <p className="font-light italic border-l-4 border-gold  pl-4">
+            &quot;Most pets settle in within minutes—we&apos;ve designed it that
+            way.&quot;
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
