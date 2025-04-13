@@ -11,7 +11,7 @@ export default function BookWithUs() {
         Experience the perfect blend of luxury, comfort, and pet-friendly
         hospitality
       </p>
-      <div className="flex flex-col md:flex-row md:flex-row-reverse items-center">
+      <div className="flex flex-col md:flex-row md:flex-row-reverse items-center gap-4">
         <div className="flex flex-col gap-4 mt-16 items-center flex-1 w-full">
           <p className="font-crimson-text text-xl">Book with Us</p>
           <Link
@@ -54,7 +54,7 @@ export default function BookWithUs() {
             <Link
               href={"https://facebook.com/celestia.suites"}
               target="_blank"
-              className="col-span-2 md:col-span-1 flex gap-3 border py-4 justify-center items-center"
+              className="col-span-2 md:col-span-1 flex gap-3 border p-4 justify-center items-center"
             >
               <p>
                 Message us on{" "}
@@ -65,7 +65,7 @@ export default function BookWithUs() {
             <Link
               href={"https://wa.me/639989954214"}
               target="_blank"
-              className="col-span-2 md:col-span-1 flex gap-3 border py-4 justify-center items-center"
+              className="col-span-2 md:col-span-1 flex gap-3 border p-4 justify-center items-center"
             >
               <p>
                 Chat with us on{" "}
