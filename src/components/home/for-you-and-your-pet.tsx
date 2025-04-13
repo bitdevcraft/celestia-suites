@@ -21,10 +21,6 @@ export default function YouAndPet() {
             We&apos;ve created a space where pets are not just
             allowed—they&apos;re truly welcome.
           </p>
-          <p className="font-light italic border-l-4 border-gold  pl-4">
-            &quot;Most pets settle in within minutes—we&apos;ve designed it that
-            way.&quot;
-          </p>
         </div>
       </div>
     </div>

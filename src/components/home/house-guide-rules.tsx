@@ -11,7 +11,7 @@ const rules = [
       "No smoking indoors",
       "Pets welcome with prior notice",
       "Kindly avoid parties or large gatherings",
-      "Quiet time: 10:00 PM – 7:00 AM",
+      "Be mindful of your noises",
     ],
   },
   {
@@ -42,14 +42,14 @@ export default function HouseGuideRules() {
       <p className="text-center w-full md:w-[70%] mx-auto mt-4 font-light">
         Everything you need to know for a seamless stay
       </p>
-      <div className="mt-16 grid grid-cols-12 gap-8">
+      <div className="mt-16 grid grid-cols-2 gap-8">
         {rules.map((el, i) => (
-          <div key={i} className="col-span-12 sm:col-span-6 px-5 py-8 border">
-            <div className="font-crimson-text text-2xl flex gap-3">
+          <div key={i} className="col-span-2 sm:col-span-1 px-5 py-8 border">
+            <div className="font-crimson-text text-lg md:text-2xl flex gap-3">
               <p className="text-gold">{(i + 1).toString().padStart(2, "0")}</p>
               <p>{el.title}</p>
             </div>
-            <ul className="font-light pl-4 flex flex-col gap-3 mt-3 text-lg">
+            <ul className="font-light flex flex-col gap-3 mt-3 text-md md:text-lg pl-4">
               {el.details.map((det, i) => (
                 <li key={i} className="flex items-center gap-4">
                   <Square

@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${josefinSans.variable} ${crimsonText.variable} antialiased min-w-[424px]`}
+        className={`${josefinSans.variable} ${crimsonText.variable} antialiased min-w-[360px]`}
       >
         <Header />
         {children}
